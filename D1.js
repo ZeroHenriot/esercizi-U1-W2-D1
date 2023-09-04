@@ -35,7 +35,7 @@ console.log("Null: indica l'assenza intenzionale di un oggetto ")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const firstName = 'Catalin'
+let firstName = 'Catalin'
 console.log(firstName)
 
 /* ESERCIZIO 3
@@ -64,8 +64,13 @@ console.log(x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// firstName = 'Darii'
+firstName = 'Darii'
 console.log(firstName)
+
+// const lastName = 'Darii'
+// lastName = 'Catalin'
+
+// cercando di cambiare una variabile const in console si avrà il seguente errore: Uncaught TypeError: invalid assignment to const 'lastName'
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
